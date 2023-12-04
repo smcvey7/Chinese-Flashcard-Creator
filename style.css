@@ -15,11 +15,15 @@ p#haveAccount:hover{
 }
 
 form{
+  position: fixed;
+  top: 30%;
+  left: 20%;
+  right: auto;
+
   z-index: 3;
   color: #DDDDDF;
-  width: 50%;
   padding: 10px;
-  background-color: #376262CC ;
+  background-color: #376262 ;
   border-radius: 5px;
   color: white;
 }
@@ -32,7 +36,7 @@ div#userInfo{
   position: absolute;
   top: 0;
   padding: 20px 70px 20px 70px;
-  background-image: linear-gradient(to right, #C7D4E0 40%, #1B2020);
+  background-color: #1B2020;
   font-size: 25px;
   z-index: -1;
   padding: 0px;
@@ -92,7 +96,7 @@ div#block2{
   float: right;
   right: 50px;
   bottom: 10px;
-  background-image: linear-gradient(#376262CC 70%, #C7D4E0);
+    background-image: linear-gradient(#376262CC 70%, #C7D4E0);
   width: 400px;
   height: 500px;
   border-radius: 5px;

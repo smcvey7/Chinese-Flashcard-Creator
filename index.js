@@ -14236,3 +14236,17 @@ function updateLeaderboard(){
 setTimeout(updateLeaderboard, 100)
 
 
+const form2 = document.getElementById('user-comments-form')
+
+form2.addEventListener('submit', (e)=>{
+  e.preventDefault()
+  const formInput = document.getElementById('user-comments-input')
+  const commentSection = document.getElementById('user-comments-div')
+
+  const comment = document.createElement('p')
+  comment.textContent = formInput.value
+
+  commentSection.appendChild(comment)
+
+  form2.reset()
+})

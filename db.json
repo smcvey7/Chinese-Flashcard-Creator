@@ -2,7 +2,7 @@
   "users": [
     {
       "username": "smcvey",
-      "points": 66,
+      "points": 75,
       "password": "password",
       "userStudyLists": {
         "numbers": [
@@ -67,6 +67,20 @@
           [
             "土",
             "tǔ"
+          ]
+        ],
+        "things": [
+          [
+            "花",
+            "huā"
+          ],
+          [
+            "树",
+            "shù"
+          ],
+          [
+            "草",
+            "cǎo"
           ]
         ]
       },
@@ -286,6 +300,56 @@
       "password": "decontamination",
       "userStudyLists": {},
       "id": 11
+    },
+    {
+      "username": "allymcherman",
+      "points": 12,
+      "password": "efron",
+      "userStudyLists": {
+        "numbers": [
+          [
+            "一",
+            "yī"
+          ],
+          [
+            "二",
+            "èr"
+          ],
+          [
+            "三",
+            "sān"
+          ],
+          [
+            "四",
+            "sì"
+          ],
+          [
+            "五",
+            "wǔ"
+          ],
+          [
+            "六",
+            "liù"
+          ],
+          [
+            "七",
+            "qī"
+          ],
+          [
+            "八",
+            "bā"
+          ],
+          [
+            "九",
+            "jiǔ"
+          ],
+          [
+            "十",
+            "shí"
+          ]
+        ]
+      },
+      "id": 12
     }
   ]
 }
